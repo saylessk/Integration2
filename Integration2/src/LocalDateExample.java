@@ -8,7 +8,7 @@ public class LocalDateExample {
 		
 		//Current Date
 		LocalDate today = LocalDate.now();
-		System.out.println("Current Date="+today);
+		System.out.println("Current Date= "+today);
 		
 		
 	}

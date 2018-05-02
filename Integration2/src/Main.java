@@ -151,7 +151,16 @@ public static void main(String[] args) throws InterruptedException {
     
    BankAccount a1 = new BankAccount();
    
+   System.out.println("An example of using Array's will be shown below");
+   Thread.sleep(500);
+   System.out.println("I have used an array to store 'Mr. , Ms, and  Mrs. ' and then located them and used their location to write out names");
+   Thread.sleep(1000);
+   
+   Array.main2(args);
+   Thread.sleep(1000);
+   
    a1.setBalance(-2);
+   
    
 	}
 }
